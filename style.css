@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  
+  #game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border: 2px solid black;
+    margin: 30px auto;
+  }
+  
+  .cell {
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    cursor: pointer;
+  }
+  
+  #status {
+    font-size: 20px;
+    font-weight: bold;
+  }
