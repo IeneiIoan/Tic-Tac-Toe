@@ -8,29 +8,47 @@ body {
   .title {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
   
   #game-board {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    border: 2px solid black;
-    margin: 30px auto;
+    width: 350px;
+    margin: 25px auto;
   }
   
   .cell {
-    width: 130px;
-    height: 130px;
-    border: 2px solid black;
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 60px;
     cursor: pointer;
   }
   
-  #status {
+  #status1, #status2 {
     font-size: 20px;
     font-weight: bold;
+  }
+
+  button {
+    background-color: #3f4240;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #a0a7a0;
+  }
+  
+  #symbol-selection {
+    margin-bottom: 10px;
   }
